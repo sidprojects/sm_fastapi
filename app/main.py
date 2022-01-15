@@ -28,7 +28,7 @@ app.include_router(votes.router)
 
 @app.get("/")
 def root():
-    message = "Welcome to my SM API Service - Sid"
+    message = "Welcome to my SM API Service"
     return message
 
 
